@@ -1,0 +1,134 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+extends:
+  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+project:
+  id: ea34568e-d86e-4720-be2f-3f826f66a26c
+  title: Concatenating a gridded rainfall reanalysis dataset into a time series (Jupyter Notebook) published in the Environmental Data Science book
+  short_title: Rainfall NCEP/NCAR (NOAA)
+  abstract: Notebook developed to demonstrate a pipeline to concatenating a gridded rainfall reanalysis dataset into a time series.
+  authors:
+    - id: tlam
+      name: Timothy Lam
+      orcid: 0000-0002-0148-935X
+      corresponding: true
+      email: tl493@exeter.ac.uk
+      url: https://github.com/timo0thy
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - exeter
+    - id: mkretschmer
+      name: Marlene Kretschmer
+      orcid: 0000-0002-2756-9526
+      url: https://github.com/MarleneKretschmer
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - reading
+    - id: sadams
+      name: Samantha Adams
+      orcid: 0000-0003-3031-4855
+      url: https://github.com/svadams
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - metoffice
+    - id: rprudden
+      name: Rachel Prudden
+      orcid: 0000-0001-9672-3489
+      url: https://github.com/RPrudden
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - metoffice
+    - id: esaggioro
+      name: Elena Saggioro
+      orcid: 0000-0002-9543-6338
+      url: https://github.com/RPrudden
+      roles:
+        - Investigation
+        - Software
+        - Visualization
+      affiliations:
+        - reading
+  reviewers:
+    - id: nhomer
+      name: Nick Homer
+      url: https://github.com/NHomer
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - edinburgh
+    - id: acoca
+      name: Alejandro Coca-Castro
+      orcid: 0000-0002-9264-1539
+      url: https://github.com/acocac
+      roles:
+        - Writing – review & editing
+      affiliations:
+        - turing
+  editors:
+    - id: acoca
+  affiliations:
+    - id: exeter
+      name: University of Exeter
+    - id: reading
+      name: University of Reading
+    - id: metoffice
+      name: Met Office
+      department: Informatics Lab
+    - id: turing
+      name: The Alan Turing Institute
+      department: Environment & Sustainability
+  subject: Atmosphere
+  keywords:
+    - environmental data science
+    - atmosphere
+    - preprocessing
+    - reanalysis dataset
+  venue:
+    title: Environmental Data Science Book
+    short_title: EDS Book
+    url: https://www.edsbook.org
+  issue:
+    name: Standard
+  thumbnail: images/thumbnail.png
+  requirements:
+    - environment.yml
+  doi: 10.5281/zenodo.8311360
+  github: https://github.com/eds-book/ea34568e-d86e-4720-be2f-3f826f66a26c
+  jupyter:
+    binder:
+      repo: eds-book/ea34568e-d86e-4720-be2f-3f826f66a26c
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  date: 2024-09-13
+  toc:
+    - file: notebook.ipynb
+  exports:
+    - format: pdf
+      template: curvenote
+      article: notebook.ipynb
+      output: exports/notebook.pdf
+    - format: cff
+      type: software
+      version: v1.0.4
+      license: MIT
+      license-url: https://opensource.org/license/MIT
+  bibliography:
+    - references.bib
+
+site:
+  template: book-theme
