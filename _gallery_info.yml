@@ -1,0 +1,10 @@
+thumbnail: images/thumbnail.png
+tags:
+  domains:
+    - Atmosphere
+  type:
+    - Preprocessing
+  issue:
+    - Standard
+  language:
+    - Python
