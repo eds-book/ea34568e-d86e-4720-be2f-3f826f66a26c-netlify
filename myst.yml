@@ -91,10 +91,10 @@ project:
       department: Environment & Sustainability
   subject: Atmosphere
   keywords:
-    - environmental data science
-    - atmosphere
-    - preprocessing
-    - reanalysis dataset
+    - Atmosphere
+    - Preprocessing
+    - Standard
+    - Python
   venue:
     title: Environmental Data Science Book
     short_title: EDS Book
