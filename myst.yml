@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 extends:
-  - https://raw.githubusercontent.com/eds-book/edsbook-config/main/edsbook.yml
+  - https://raw.githubusercontent.com/eds-book/edsbook-config-netlify/main/edsbook.yml
 project:
   id: ea34568e-d86e-4720-be2f-3f826f66a26c
   title: Concatenating a gridded rainfall reanalysis dataset into a time series (Jupyter Notebook) published in the Environmental Data Science book
